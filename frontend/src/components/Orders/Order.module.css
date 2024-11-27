@@ -1,0 +1,28 @@
+.paginationContainer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.ordersContainer{
+    background-color: white;
+   position: relative;
+    height: 100vh;
+}
+    body{
+        background-color: white;
+    }
+.ordersTitle{
+    width: 100%;
+    border-collapse: collapse;
+    th{
+        color:white;
+        background-color: forestgreen;
+    }
+    tr:nth-child(odd){
+        background-color: white;
+    }
+    tr:nth-child(even){
+        background-color: #aaaaaa;
+    }
+}

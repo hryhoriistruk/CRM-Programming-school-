@@ -1,0 +1,38 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 5px;
+}
+
+.pageItem {
+    padding: 8px 16px;
+    border: 1px solid darkgreen;
+    border-radius: 20px;
+    background-color: forestgreen;
+    transition: background-color 0.3s;
+    color: white;}
+
+.pageItem:hover {
+    background-color: forestgreen;
+}
+
+.activePage {
+    background-color: seagreen;
+    color: #fff;
+    font-weight: bold;
+    }
+
+.hidden {
+    visibility: hidden;
+}
+
+.disabledPage {
+    color: #aaa;
+    background-color: #e0e0e0;
+}
+
+.breakItem {
+    margin: 0 5px;
+}
